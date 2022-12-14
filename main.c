@@ -6,6 +6,7 @@
 #define BORDER 42
 #define SIZE 25
 #define COIN 'P'
+#define SPEED_ML_SEC 210
 
 void mkshape();
 void displayshape();
@@ -139,7 +140,7 @@ void mkshape()
 void displayshape(int  point)
 {
     system("cls");
-    printf("\n\npoint  %d\n\n", point);
+    printf("\n\npoint: %d     Made by Asif\n\n", point);
     for(int i = 0; i<SIZE ; i++)
     {
 
@@ -149,5 +150,5 @@ void displayshape(int  point)
             printf("\n");
 
     }
-    Sleep(240);
+    Sleep(SPEED_ML_SEC);
 }
