@@ -139,7 +139,7 @@ void mkshape()
 void displayshape(int  point)
 {
     system("cls");
-    printf("\n\npoint  %d\n\n", point);
+    printf("\n\npoint  %d  \t Coder: Asif\n\n", point);
     for(int i = 0; i<SIZE ; i++)
     {
 
